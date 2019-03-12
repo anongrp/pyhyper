@@ -1,4 +1,4 @@
-class Object(object):
+class HyperliteObject(object):
     def __init__(self, data: dict, collection):
         self.collection = collection
         for key, value in data.items():
